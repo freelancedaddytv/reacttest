@@ -27,10 +27,10 @@ const channels = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-gradient-to-br from-slate-950 via-violet-950 to-slate-900">
+    <section id="contact" className="py-24 bg-gradient-to-br from-slate-950 via-green-950 to-slate-900">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-400 tracking-widest uppercase">
+          <span className="text-sm font-semibold text-green-400 tracking-widest uppercase">
             Get in Touch
           </span>
           <h2 className="mt-3 text-4xl sm:text-5xl font-bold text-white tracking-tight">
@@ -48,11 +48,11 @@ export default function Contact() {
               href={c.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col items-center gap-4 p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-violet-500/50 transition-all duration-200"
+              className="group flex flex-col items-center gap-4 p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-green-500/50 transition-all duration-200"
             >
               <span className="text-4xl">{c.icon}</span>
               <div className="text-center">
-                <p className="text-xs font-semibold text-violet-400 uppercase tracking-wider mb-1">
+                <p className="text-xs font-semibold text-green-400 uppercase tracking-wider mb-1">
                   {c.label}
                 </p>
                 <p className="text-sm text-slate-300 group-hover:text-white transition-colors break-all">
@@ -72,7 +72,7 @@ export default function Contact() {
           </p>
           <a
             href="mailto:jeff@vodesk.com"
-            className="inline-block px-10 py-4 rounded-full bg-violet-600 text-white font-semibold text-base hover:bg-violet-500 active:scale-95 transition-all shadow-lg shadow-violet-900/50"
+            className="inline-block px-10 py-4 rounded-full bg-green-600 text-white font-semibold text-base hover:bg-green-500 active:scale-95 transition-all shadow-lg shadow-green-900/50"
           >
             Send me an email
           </a>

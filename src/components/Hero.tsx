@@ -6,11 +6,11 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-violet-950 to-slate-900"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-green-950 to-slate-900"
     >
       {/* Decorative blobs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-violet-600/20 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 -right-32 w-96 h-96 rounded-full bg-indigo-600/20 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-green-600/20 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 -right-32 w-96 h-96 rounded-full bg-emerald-600/20 blur-3xl pointer-events-none" />
 
       {/* Grid pattern overlay */}
       <div
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-sm font-medium mb-8 backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-500/40 bg-green-500/10 text-green-300 text-sm font-medium mb-8 backdrop-blur-sm">
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
           Available for new projects
         </div>
@@ -32,7 +32,7 @@ export default function Hero() {
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight tracking-tight mb-6">
           I build{' '}
           <span className="relative">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-indigo-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">
               AI-powered systems
             </span>
             <svg
@@ -49,8 +49,8 @@ export default function Hero() {
               />
               <defs>
                 <linearGradient id="heroUnderline" x1="0" y1="0" x2="300" y2="0">
-                  <stop offset="0%" stopColor="#a78bfa" />
-                  <stop offset="100%" stopColor="#818cf8" />
+                  <stop offset="0%" stopColor="#4ade80" />
+                  <stop offset="100%" stopColor="#34d399" />
                 </linearGradient>
               </defs>
             </svg>
@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
             onClick={() => scrollTo('#contact')}
-            className="w-full sm:w-auto px-8 py-4 rounded-full bg-violet-600 text-white text-base font-semibold shadow-lg shadow-violet-900/50 hover:bg-violet-500 hover:shadow-violet-700/60 active:scale-95 transition-all duration-200"
+            className="w-full sm:w-auto px-8 py-4 rounded-full bg-green-600 text-white text-base font-semibold shadow-lg shadow-green-900/50 hover:bg-green-500 hover:shadow-green-700/60 active:scale-95 transition-all duration-200"
           >
             Contact Me
           </button>

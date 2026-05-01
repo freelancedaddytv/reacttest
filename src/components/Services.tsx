@@ -4,21 +4,21 @@ const services = [
     description:
       'Design and build intelligent workflows that automate tasks like document processing, lead handling, and customer communication.',
     tags: ['OpenAI', 'Claude', 'n8n', 'Webhooks'],
-    gradient: 'from-violet-600 to-indigo-600',
+    gradient: 'from-green-600 to-emerald-600',
   },
   {
     title: 'SaaS & Web App Development',
     description:
       'Develop modern web applications with clean UI and scalable architecture.',
     tags: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
-    gradient: 'from-indigo-600 to-blue-600',
+    gradient: 'from-emerald-600 to-blue-600',
   },
   {
     title: 'Laravel Backend Development',
     description:
       'Build secure APIs, business logic, and backend systems using Laravel.',
     tags: ['Laravel', 'MySQL', 'PostgreSQL', 'REST APIs'],
-    gradient: 'from-fuchsia-600 to-violet-600',
+    gradient: 'from-teal-600 to-green-600',
   },
   {
     title: 'API Integration & Workflow Automation',
@@ -48,7 +48,7 @@ export default function Services() {
     <section id="services" className="py-24 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 tracking-widest uppercase">
+          <span className="text-sm font-semibold text-green-600 tracking-widest uppercase">
             What I Do
           </span>
           <h2 className="mt-3 text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight">
@@ -72,7 +72,7 @@ export default function Services() {
                 {s.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600 group-hover:bg-violet-50 group-hover:text-violet-700 transition-colors"
+                    className="px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600 group-hover:bg-green-50 group-hover:text-green-700 transition-colors"
                   >
                     {tag}
                   </span>

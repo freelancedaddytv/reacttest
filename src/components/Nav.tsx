@@ -32,7 +32,7 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <button
           onClick={() => scrollTo('#hero')}
-          className="text-xl font-bold tracking-tight text-violet-700 hover:text-violet-900 transition-colors"
+          className="text-xl font-bold tracking-tight text-green-700 hover:text-green-900 transition-colors"
         >
           Jefrey<span className="text-slate-800">Landicho</span>
         </button>
@@ -43,14 +43,14 @@ export default function Nav() {
             <button
               key={l.href}
               onClick={() => scrollTo(l.href)}
-              className="text-sm font-medium text-slate-600 hover:text-violet-700 transition-colors"
+              className="text-sm font-medium text-slate-600 hover:text-green-700 transition-colors"
             >
               {l.label}
             </button>
           ))}
           <button
             onClick={() => scrollTo('#contact')}
-            className="ml-4 px-5 py-2 rounded-full bg-violet-700 text-white text-sm font-semibold hover:bg-violet-800 active:scale-95 transition-all"
+            className="ml-4 px-5 py-2 rounded-full bg-green-700 text-white text-sm font-semibold hover:bg-green-800 active:scale-95 transition-all"
           >
             Hire Me
           </button>
@@ -76,14 +76,14 @@ export default function Nav() {
               <button
                 key={l.href}
                 onClick={() => scrollTo(l.href)}
-                className="text-left px-4 py-2.5 rounded-lg text-slate-700 hover:bg-violet-50 hover:text-violet-700 font-medium transition-colors"
+                className="text-left px-4 py-2.5 rounded-lg text-slate-700 hover:bg-green-50 hover:text-green-700 font-medium transition-colors"
               >
                 {l.label}
               </button>
             ))}
             <button
               onClick={() => scrollTo('#contact')}
-              className="mt-2 px-5 py-2.5 rounded-full bg-violet-700 text-white font-semibold hover:bg-violet-800 transition-colors"
+              className="mt-2 px-5 py-2.5 rounded-full bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors"
             >
               Hire Me
             </button>

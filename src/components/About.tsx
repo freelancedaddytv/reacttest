@@ -43,7 +43,7 @@ export default function About() {
     <section id="about" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 tracking-widest uppercase">
+          <span className="text-sm font-semibold text-green-600 tracking-widest uppercase">
             Why Work With Me
           </span>
           <h2 className="mt-3 text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight">
@@ -57,7 +57,7 @@ export default function About() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-slate-100 rounded-2xl overflow-hidden mb-20 shadow-sm">
           {stats.map((s) => (
             <div key={s.label} className="bg-white py-10 px-6 text-center">
-              <p className="text-4xl font-extrabold text-violet-700">{s.value}</p>
+              <p className="text-4xl font-extrabold text-green-700">{s.value}</p>
               <p className="mt-1 text-sm text-slate-500">{s.label}</p>
             </div>
           ))}
@@ -67,9 +67,9 @@ export default function About() {
           {reasons.map((r) => (
             <div
               key={r.title}
-              className="group p-8 rounded-2xl border border-slate-100 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-50 transition-all duration-300"
+              className="group p-8 rounded-2xl border border-slate-100 hover:border-green-200 hover:shadow-lg hover:shadow-green-50 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-xl bg-violet-50 flex items-center justify-center text-2xl mb-5 group-hover:bg-violet-100 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center text-2xl mb-5 group-hover:bg-green-100 transition-colors">
                 {r.icon}
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">{r.title}</h3>

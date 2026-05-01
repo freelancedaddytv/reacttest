@@ -4,14 +4,14 @@ const testimonials = [
     name: 'Amitha',
     role: 'Farm House by Amitha',
     initials: 'A',
-    color: 'bg-violet-600',
+    color: 'bg-green-600',
   },
   {
     body: 'Jefrey delivered exactly what we needed and stayed professional throughout the entire process. His work was efficient, well executed, and on schedule. I highly recommend him for CRM and automation projects.',
     name: 'HL Real Estate Group',
     role: 'Real Estate',
     initials: 'HL',
-    color: 'bg-indigo-600',
+    color: 'bg-emerald-600',
   },
   {
     body: 'Jefrey helped us streamline our client intake and automate key parts of our workflow. The system he built saved our team hours of manual work and improved how we handle new cases. Highly recommended for law firms looking to modernize.',
@@ -37,7 +37,7 @@ export default function Testimonials() {
     <section id="testimonials" className="py-24 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 tracking-widest uppercase">
+          <span className="text-sm font-semibold text-green-600 tracking-widest uppercase">
             Testimonials
           </span>
           <h2 className="mt-3 text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight">
