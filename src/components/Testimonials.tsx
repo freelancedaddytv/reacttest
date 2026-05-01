@@ -1,23 +1,23 @@
 const testimonials = [
   {
-    body: "Alex delivered a complex multi-tenant SaaS dashboard in 6 weeks — ahead of schedule and with zero bugs in production. Genuinely one of the best developers I've worked with.",
-    name: 'Sarah Chen',
-    role: 'CTO, FinTrack',
-    initials: 'SC',
+    body: "Jef has become an essential part of our operations. He handles everything from automation to system integrations and consistently delivers reliable, high-quality work. If you're looking for someone you can trust with your tech, Jef is the right choice.",
+    name: 'Amitha',
+    role: 'Farm House by Amitha',
+    initials: 'A',
     color: 'bg-violet-600',
   },
   {
-    body: 'Our Shopify replatform was tricky but Alex navigated every challenge with calm expertise. The result: 40% faster load times and a 22% lift in conversion rate.',
-    name: 'Marcus Webb',
-    role: 'Head of Product, ShopFlow',
-    initials: 'MW',
+    body: 'Jefrey delivered exactly what we needed and stayed professional throughout the entire process. His work was efficient, well executed, and on schedule. I highly recommend him for CRM and automation projects.',
+    name: 'HL Real Estate Group',
+    role: 'Real Estate',
+    initials: 'HL',
     color: 'bg-indigo-600',
   },
   {
-    body: "Clear communicator, sharp engineer, and a pleasure to work with. Alex proactively flagged architectural risks we hadn't seen — that alone saved us months of rework.",
-    name: 'Dr. Priya Nair',
-    role: 'Founder, MedSync',
-    initials: 'PN',
+    body: 'Jefrey helped us streamline our client intake and automate key parts of our workflow. The system he built saved our team hours of manual work and improved how we handle new cases. Highly recommended for law firms looking to modernize.',
+    name: 'Dave Smith',
+    role: 'HCG',
+    initials: 'DS',
     color: 'bg-emerald-600',
   },
 ]
@@ -57,7 +57,7 @@ export default function Testimonials() {
               </blockquote>
               <div className="flex items-center gap-3">
                 <div
-                  className={`${t.color} w-10 h-10 rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}
+                  className={`${t.color} w-10 h-10 rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0`}
                 >
                   {t.initials}
                 </div>
