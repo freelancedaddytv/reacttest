@@ -1,44 +1,44 @@
 const services = [
   {
-    title: 'Web App Development',
+    title: 'AI-Powered Automation Systems',
     description:
-      'Full-stack React applications with Node.js/Next.js backends — from MVP to scale-ready architecture.',
-    tags: ['React', 'TypeScript', 'Node.js', 'Next.js'],
+      'Design and build intelligent workflows that automate tasks like document processing, lead handling, and customer communication.',
+    tags: ['OpenAI', 'Claude', 'n8n', 'Webhooks'],
     gradient: 'from-violet-600 to-indigo-600',
   },
   {
-    title: 'API & Backend Engineering',
+    title: 'SaaS & Web App Development',
     description:
-      'RESTful and GraphQL APIs designed for performance, security, and long-term maintainability.',
-    tags: ['REST', 'GraphQL', 'PostgreSQL', 'Redis'],
+      'Develop modern web applications with clean UI and scalable architecture.',
+    tags: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
     gradient: 'from-indigo-600 to-blue-600',
   },
   {
-    title: 'UI / UX Implementation',
+    title: 'Laravel Backend Development',
     description:
-      'Pixel-perfect, accessible interfaces built from Figma designs with smooth animations and responsive layouts.',
-    tags: ['Tailwind CSS', 'Figma', 'Framer Motion', 'WCAG'],
+      'Build secure APIs, business logic, and backend systems using Laravel.',
+    tags: ['Laravel', 'MySQL', 'PostgreSQL', 'REST APIs'],
     gradient: 'from-fuchsia-600 to-violet-600',
   },
   {
-    title: 'Cloud & DevOps',
+    title: 'API Integration & Workflow Automation',
     description:
-      'CI/CD pipelines, containerised deployments, and cloud infrastructure that keeps your app running reliably.',
-    tags: ['AWS', 'Docker', 'GitHub Actions', 'Terraform'],
+      'Connect multiple platforms into one seamless automated system.',
+    tags: ['REST APIs', 'JSON', 'Webhooks', 'n8n'],
     gradient: 'from-blue-600 to-cyan-600',
   },
   {
-    title: 'Technical Consulting',
+    title: 'Document & Data Processing Systems',
     description:
-      'Architecture reviews, tech-stack decisions, and code audits to help your team ship with confidence.',
-    tags: ['Architecture', 'Code Review', 'Mentoring'],
+      'Extract, analyze, and summarize data from PDFs, images, and structured files using AI.',
+    tags: ['OCR', 'OpenAI', 'Claude', 'Document Parsing'],
     gradient: 'from-emerald-600 to-teal-600',
   },
   {
-    title: 'Performance Optimisation',
+    title: 'Rapid MVP Development',
     description:
-      'Diagnose and fix slow load times, memory leaks, and bottlenecks — measurable gains every time.',
-    tags: ['Lighthouse', 'Core Web Vitals', 'Profiling'],
+      'Turn ideas into working products quickly using efficient tools and AI-assisted development.',
+    tags: ['React', 'Laravel', 'AI Tools', 'Fast Delivery'],
     gradient: 'from-amber-500 to-orange-500',
   },
 ]
@@ -55,7 +55,7 @@ export default function Services() {
             Services
           </h2>
           <p className="mt-4 text-slate-500 max-w-xl mx-auto text-lg">
-            End-to-end engineering — from strategy and design to deployment and beyond.
+            End-to-end engineering from strategy and design to deployment and beyond.
           </p>
         </div>
 
@@ -65,12 +65,9 @@ export default function Services() {
               key={s.title}
               className="group relative bg-white rounded-2xl p-8 border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
-              {/* Accent bar */}
               <div className={`absolute top-0 inset-x-0 h-1 bg-gradient-to-r ${s.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
-
               <h3 className="text-lg font-semibold text-slate-900 mb-3">{s.title}</h3>
               <p className="text-slate-500 text-sm leading-relaxed mb-6">{s.description}</p>
-
               <div className="flex flex-wrap gap-2">
                 {s.tags.map((tag) => (
                   <span

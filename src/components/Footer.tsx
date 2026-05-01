@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <p>
           © {new Date().getFullYear()}{' '}
-          <span className="text-violet-500 font-semibold">AlexDev</span>. All rights reserved.
+          <span className="text-violet-500 font-semibold">Jefrey Landicho</span>. All rights reserved.
         </p>
         <p className="mt-1 text-xs text-slate-700">
           Built with React 19 · TypeScript · Tailwind v4 · Vite

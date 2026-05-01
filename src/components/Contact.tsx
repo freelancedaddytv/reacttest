@@ -2,26 +2,26 @@ const channels = [
   {
     icon: '📧',
     label: 'Email',
-    value: 'alex@alexdev.io',
-    href: 'mailto:alex@alexdev.io',
+    value: 'jeff@vodesk.com',
+    href: 'mailto:jeff@vodesk.com',
   },
   {
     icon: '💼',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/alexdev',
-    href: '#',
+    value: '/in/jefreylandicho',
+    href: 'https://linkedin.com/in/jefreylandicho/',
   },
   {
     icon: '🐙',
     label: 'GitHub',
-    value: 'github.com/alexdev',
-    href: '#',
+    value: '/freelancedaddytv',
+    href: 'https://github.com/freelancedaddytv',
   },
   {
-    icon: '🐦',
-    label: 'Twitter / X',
-    value: '@alexdev_io',
-    href: '#',
+    icon: '📘',
+    label: 'Facebook',
+    value: '@pctechph',
+    href: 'https://facebook.com/pctechph',
   },
 ]
 
@@ -46,6 +46,8 @@ export default function Contact() {
             <a
               key={c.label}
               href={c.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex flex-col items-center gap-4 p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-violet-500/50 transition-all duration-200"
             >
               <span className="text-4xl">{c.icon}</span>
@@ -61,16 +63,15 @@ export default function Contact() {
           ))}
         </div>
 
-        {/* CTA strip */}
         <div className="text-center rounded-2xl border border-white/10 bg-white/5 p-10">
           <p className="text-2xl font-bold text-white mb-2">
             Ready to start a project?
           </p>
           <p className="text-slate-400 mb-8 max-w-md mx-auto">
-            I'm currently available for freelance engagements — full-time contracts, part-time retainers, or fixed-scope projects.
+            I'm currently available for freelance engagements. Full-time contracts, part-time retainers, or fixed-scope projects.
           </p>
           <a
-            href="mailto:alex@alexdev.io"
+            href="mailto:jeff@vodesk.com"
             className="inline-block px-10 py-4 rounded-full bg-violet-600 text-white font-semibold text-base hover:bg-violet-500 active:scale-95 transition-all shadow-lg shadow-violet-900/50"
           >
             Send me an email

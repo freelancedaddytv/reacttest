@@ -33,7 +33,7 @@ export default function Hero() {
           I build{' '}
           <span className="relative">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-indigo-400">
-              digital products
+              AI-powered systems
             </span>
             <svg
               className="absolute -bottom-2 left-0 w-full"
@@ -55,12 +55,11 @@ export default function Hero() {
               </defs>
             </svg>
           </span>{' '}
-          that users love
+          for law firms
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Full-stack freelance developer specializing in React, Node.js, and cloud-native
-          applications. Turning complex problems into elegant, performant solutions.
+          From client intake automation to document processing, I create tools that simplify legal workflows and improve efficiency.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

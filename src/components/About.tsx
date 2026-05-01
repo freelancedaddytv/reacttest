@@ -1,5 +1,5 @@
 const stats = [
-  { value: '7+', label: 'Years experience' },
+  { value: '15+', label: 'Years experience' },
   { value: '80+', label: 'Projects delivered' },
   { value: '50+', label: 'Happy clients' },
   { value: '99%', label: 'On-time delivery' },
@@ -9,7 +9,7 @@ const reasons = [
   {
     icon: '⚡',
     title: 'Fast & Reliable',
-    body: 'I deliver clean, production-ready code on schedule — no bloat, no excuses.',
+    body: 'I deliver clean, production-ready code on schedule with no bloat and no excuses.',
   },
   {
     icon: '🎯',
@@ -24,17 +24,17 @@ const reasons = [
   {
     icon: '🛡️',
     title: 'Quality by Default',
-    body: 'TypeScript, tests, and code review best practices come standard — not as an add-on.',
+    body: 'TypeScript, tests, and code review best practices come standard, not as an add-on.',
   },
   {
     icon: '🤝',
     title: 'True Partnership',
-    body: 'I think like a co-founder: your success is my metric, not just hours billed.',
+    body: "I think like a co-founder: your success is my metric, not just hours billed.",
   },
   {
     icon: '🔄',
     title: 'Ongoing Support',
-    body: "Post-launch care, bug fixes, and iterative improvements — I'm here for the long run.",
+    body: "Post-launch care, bug fixes, and iterative improvements. I'm here for the long run.",
   },
 ]
 
@@ -42,7 +42,6 @@ export default function About() {
   return (
     <section id="about" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Section header */}
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-violet-600 tracking-widest uppercase">
             Why Work With Me
@@ -55,7 +54,6 @@ export default function About() {
           </p>
         </div>
 
-        {/* Stats row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-slate-100 rounded-2xl overflow-hidden mb-20 shadow-sm">
           {stats.map((s) => (
             <div key={s.label} className="bg-white py-10 px-6 text-center">
@@ -65,7 +63,6 @@ export default function About() {
           ))}
         </div>
 
-        {/* Reasons grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((r) => (
             <div

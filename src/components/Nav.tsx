@@ -34,7 +34,7 @@ export default function Nav() {
           onClick={() => scrollTo('#hero')}
           className="text-xl font-bold tracking-tight text-violet-700 hover:text-violet-900 transition-colors"
         >
-          Alex<span className="text-slate-800">Dev</span>
+          Jefrey<span className="text-slate-800">Landicho</span>
         </button>
 
         {/* Desktop nav */}

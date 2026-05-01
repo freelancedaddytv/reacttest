@@ -1,39 +1,39 @@
 const projects = [
   {
-    title: 'FinTrack Dashboard',
+    title: 'AI Legal Document Analyzer',
+    category: 'AI · Legal Tech',
+    description:
+      'AI-powered system that extracts, summarizes, and generates structured insights from legal documents such as PDFs and scanned files.',
+    tech: ['Laravel', 'OpenAI', 'Google Vision OCR', 'React'],
+    color: 'bg-violet-600',
+    emoji: '⚖️',
+  },
+  {
+    title: 'AI Lead Intake & Automation System',
+    category: 'AI · Automation',
+    description:
+      'Automated client intake system with AI-generated responses, smart routing, and workflow automation for faster lead handling.',
+    tech: ['n8n', 'OpenAI', 'Retell AI', 'Webhooks', 'REST APIs'],
+    color: 'bg-indigo-600',
+    emoji: '🤖',
+  },
+  {
+    title: 'Legal CRM & Document Automation',
+    category: 'Legal · CRM',
+    description:
+      'Integrated legal workflow system for managing clients, automating follow-ups, and handling document generation and e-signatures.',
+    tech: ['Clio Manage', 'Lawmatics', 'SignRequest'],
+    color: 'bg-emerald-600',
+    emoji: '📋',
+  },
+  {
+    title: 'SaaS Automation Platform (MVP)',
     category: 'SaaS · Full-stack',
     description:
-      'Real-time financial analytics platform with custom charting, multi-currency support, and role-based access control for 10k+ users.',
-    tech: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL'],
-    color: 'bg-violet-600',
-    emoji: '📊',
-  },
-  {
-    title: 'ShopFlow Commerce',
-    category: 'E-commerce · Frontend',
-    description:
-      'Headless Shopify storefront achieving 98 Lighthouse score with SSR, edge caching, and a fully custom checkout experience.',
-    tech: ['Next.js', 'Shopify', 'Tailwind', 'Vercel'],
-    color: 'bg-indigo-600',
-    emoji: '🛒',
-  },
-  {
-    title: 'MedSync Platform',
-    category: 'HealthTech · SaaS',
-    description:
-      'HIPAA-compliant scheduling and telehealth app connecting 500+ practitioners with patients across 12 countries.',
-    tech: ['React', 'Node.js', 'WebRTC', 'AWS'],
-    color: 'bg-emerald-600',
-    emoji: '🏥',
-  },
-  {
-    title: 'DevCollab API',
-    category: 'Open Source · Backend',
-    description:
-      'GraphQL API gateway for distributed dev teams — real-time notifications, webhook management, and audit logging.',
-    tech: ['GraphQL', 'Redis', 'Docker', 'GitHub Actions'],
+      'Custom web-based platform designed to automate business processes, connect tools, and streamline operations from a single dashboard.',
+    tech: ['React', 'Laravel', 'REST APIs', 'Webhooks'],
     color: 'bg-fuchsia-600',
-    emoji: '🔗',
+    emoji: '🚀',
   },
 ]
 
@@ -59,19 +59,15 @@ export default function Work() {
               key={p.title}
               className="group relative rounded-2xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Card header */}
               <div className={`${p.color} p-8 flex items-center justify-center text-6xl`}>
                 {p.emoji}
               </div>
-
-              {/* Card body */}
               <div className="p-8 bg-white">
                 <span className="text-xs font-semibold text-violet-600 uppercase tracking-wider">
                   {p.category}
                 </span>
                 <h3 className="mt-2 text-xl font-bold text-slate-900 mb-3">{p.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed mb-6">{p.description}</p>
-
                 <div className="flex flex-wrap gap-2">
                   {p.tech.map((t) => (
                     <span
