@@ -35,7 +35,7 @@ export default function Nav() {
           className="text-xl font-bold tracking-tight cursor-pointer"
         >
           <span className={scrolled ? 'text-green-700' : 'text-green-400'}>Jefrey</span>
-          <span className="text-white">Landicho</span>
+          <span className={scrolled ? 'text-slate-800' : 'text-white'}>Landicho</span>
         </button>
 
         {/* Desktop nav */}
