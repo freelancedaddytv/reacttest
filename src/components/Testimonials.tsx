@@ -15,9 +15,9 @@ const testimonials = [
   },
   {
     body: 'Jefrey helped us streamline our client intake and automate key parts of our workflow. The system he built saved our team hours of manual work and improved how we handle new cases. Highly recommended for law firms looking to modernize.',
-    name: 'Dave Smith',
-    role: 'HCG',
-    initials: 'DS',
+    name: 'JPL Law Firm',
+    role: 'Law Firm',
+    initials: 'JPL',
     color: 'bg-emerald-600',
   },
 ]
